@@ -10,10 +10,22 @@
       margin: 0;
       padding: 0;
       background-color: #f5699d;
-      display: flex;
+      animation: bgchange 0.1s infinite alternate;
+      /* display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      height: 100vh; */
+    }
+    @keyframes bgchange {
+      0% {
+        background-color: #f5699d;
+      }
+      50% {
+        background-color: #fff;
+      }
+      100% {
+        background-color: #f5699d;
+      }
     }
 
     div {
